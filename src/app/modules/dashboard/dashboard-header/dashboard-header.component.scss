@@ -1,0 +1,18 @@
+.header {
+  &__dashboard-label {
+    font-weight: 600;
+  }
+
+  &__left-subtitle {
+    margin-bottom: 0;
+  }
+
+  &--time {
+    color: grey;
+    padding-left: 5px;
+  }
+
+  &__timestamp-container {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+.analytics {
+  &__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  &__item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  &__donut-chart {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #486eb4;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  // &__line-chart {
+  //   background-color: #137e2e;
+  //   margin: 10px;
+  //   padding: 20px;
+  //   font-size: 30px;
+  // }
+}
